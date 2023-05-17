@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md",
+                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md",
+                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md",
+                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md"
+                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md"
               }
             }
           },
@@ -156,10 +156,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8924327b7eca118b",
+  "active": "cbbc9f3097d3d965",
   "lastOpenFiles": [
     "Untitled.canvas",
-    "blogs/flutter_journy_notes/flutter_journy_notes.md",
+    "blogs/flutter_journy_notes/Flutter Journey Notes.md",
     "blogs/flutter_journy_notes",
     "blogs"
   ]
