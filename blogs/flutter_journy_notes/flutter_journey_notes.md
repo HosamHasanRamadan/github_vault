@@ -34,3 +34,8 @@ Technically Provider is just InheritedWidget for humans , it would be no brainer
  - Gap
  - Nested 
  - Flutter portal
+
+### Flutter form is very basic and got really messy easily with slightly complex form and validation
+[Reactive Froms](https://pub.dev/packages/reactive_forms) to the rescue, you're welcome 
+
+### Isolate support on flutter web
