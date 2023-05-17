@@ -11,8 +11,12 @@
             "id": "cbbc9f3097d3d965",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,10 +124,21 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journy_notes.md"
+              }
+            }
+          },
+          {
+            "id": "9dba6d85a5545b24",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -135,13 +152,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "8924327b7eca118b",
   "lastOpenFiles": [
     "Untitled.canvas",
-    "blogs/flutter_journy_notes/Flutter Journy Notes.md",
+    "blogs/flutter_journy_notes/flutter_journy_notes.md",
     "blogs/flutter_journy_notes",
     "blogs"
   ]

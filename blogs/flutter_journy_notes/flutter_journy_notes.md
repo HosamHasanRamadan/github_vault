@@ -1,0 +1,1 @@
+As a flutter developer, I take so many micro decisions while coding is this blog I will add stuff that I like or don't like about flutter also I will add thoughts and ideas , you can say that this blog is ***Flutter Thoughts Dump***.
