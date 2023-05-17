@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md",
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md",
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md",
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogs/flutter_journy_notes/Flutter Journey Notes.md"
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md"
               }
             }
           },
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +158,7 @@
   "active": "cbbc9f3097d3d965",
   "lastOpenFiles": [
     "Untitled.canvas",
-    "blogs/flutter_journy_notes/Flutter Journey Notes.md",
+    "blogs/flutter_journy_notes/flutter_journey_notes.md",
     "blogs/flutter_journy_notes",
     "blogs"
   ]
