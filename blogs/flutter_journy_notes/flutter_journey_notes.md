@@ -29,7 +29,7 @@ I know flutter is a portable ui framework, but building apps isn't about UI only
  - Native views [Link](https://docs.flutter.dev/platform-integration/android/platform-views)
  
 ### Some packages should be adopted by flutter team
-Package like Provider should be adopted by flutter since Remi will be focused on Riverpod and Provider won't get that much attention from the author sooner or later.
+Package like Provider should be adopted by flutter since Remi will be focused on Riverpod and Provider won't get that much attention from him sooner or later.
 Technically Provider is just InheritedWidget for humans , it would be no brainer to be part of the flutter SDK. other packages like:
  - Gap
  - Nested 
@@ -39,3 +39,18 @@ Technically Provider is just InheritedWidget for humans , it would be no brainer
 [Reactive Froms](https://pub.dev/packages/reactive_forms) to the rescue, you're welcome 
 
 ### Isolate support on flutter web
+
+### You have to be updated, unless your code will break
+Flutter moves really fast and breaks really fast, so you have to be always up-to-date.
+
+### Static extensions are useless
+
+
+### Showing dialogs using navigation stack
+Using the navigation stack to show dialog is a crime , thanks god flutter_portal and stack is here.
+
+### Material without flex scheme is just broken
+Material Mike , that's it.
+
+### Reverting native package configuration is a nightmare
+Just try to remove Firebase from your project , it's not a piece of cake.
