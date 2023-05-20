@@ -11,11 +11,10 @@
             "id": "cbbc9f3097d3d965",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
                 "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
-                "mode": "source",
-                "source": false
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md"
-              }
+              "state": {}
             }
           },
           {

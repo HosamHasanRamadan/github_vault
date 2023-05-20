@@ -50,7 +50,7 @@ Flutter moves really fast and breaks really fast, so you have to be always up-to
 Using the navigation stack to show dialog is a crime , thanks god flutter_portal and stack is here.
 
 ### Material without flex scheme is just broken
-Material Mike , that's it.
+Material [Mike](https://twitter.com/RydMike) , that's it.
 
 ### Reverting native package configuration is a nightmare
 Just try to remove Firebase from your project , it's not a piece of cake.
