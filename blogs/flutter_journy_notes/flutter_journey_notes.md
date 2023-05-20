@@ -54,3 +54,7 @@ Material Mike , that's it.
 
 ### Reverting native package configuration is a nightmare
 Just try to remove Firebase from your project , it's not a piece of cake.
+The simplest way is to delete the native file and call `flutter create .` again 
+
+#### Why `mainAxis` and `crossAxis` for `Flex`
+Every time I use `Row` or `Column` I feel like my brain glitched , What is wrong with `Vertical` and `Horizintal` 
