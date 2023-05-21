@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "bbcc6ab3f82ed271",
+        "id": "ad835a17a184fca7",
         "type": "tabs",
         "children": [
           {
-            "id": "cbbc9f3097d3d965",
+            "id": "5cf6380ffc1c65c8",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
                 "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
-                "staged": false
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md"
+              }
             }
           },
           {
@@ -150,7 +155,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cbbc9f3097d3d965",
+  "active": "5cf6380ffc1c65c8",
   "lastOpenFiles": [
     "blogs/flutter_journy_notes/flutter_journey_notes.md",
     "Untitled.canvas",

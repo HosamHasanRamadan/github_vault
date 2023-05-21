@@ -58,3 +58,6 @@ The simplest way is to delete the native file and call `flutter create .` again
 
 #### Why `mainAxis` and `crossAxis` for `Flex`
 Every time I use `Row` or `Column` I feel like my brain glitched , What is wrong with `Vertical` and `Horizintal` 
+
+### I miss `Checked Exception`
+I really miss checked exception and also catching error in flutter is really weird, it should be forbidden.
