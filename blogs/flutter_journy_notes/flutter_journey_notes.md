@@ -75,3 +75,11 @@ when flutter wanted to change button api they introduced  new buttons with  new 
 Change hit area without changing widget size . flutter_portal to the rescue.
 
 ### Using flutter without native experience is a huge fallacy
+
+### Sign out reset state ways 
+-  restart app (flutter_phonix)
+-  Invalidate state - (riverpod)
+-  Event bus -  Simple api like https://pub.dev/packages/notification_dispatcher
+-  Scopes - (getit scopes , ProviderContainer)
+
+### Restart app doesn't like global keys

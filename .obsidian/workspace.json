@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
+                "file": "blogs/choose_right_package/choose_right_package.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
+                "file": "blogs/choose_right_package/choose_right_package.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
+                "file": "blogs/choose_right_package/choose_right_package.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md"
+                "file": "blogs/choose_right_package/choose_right_package.md"
               }
             }
           },
@@ -158,6 +158,8 @@
   "active": "5cf6380ffc1c65c8",
   "lastOpenFiles": [
     "blogs/flutter_journy_notes/flutter_journey_notes.md",
+    "blogs/choose_right_package/choose_right_package.md",
+    "blogs/choose_right_package",
     "Untitled.canvas",
     "blogs/flutter_journy_notes",
     "blogs"
