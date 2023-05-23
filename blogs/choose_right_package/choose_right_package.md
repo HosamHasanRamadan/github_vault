@@ -4,6 +4,7 @@ Once you add a package to your project, it becomes your responsibility to follow
 You need to take in consideration that Flutter doesn't support `mirrors` .
 
 <img src="https://raw.githubusercontent.com/HosamHasanRamadan/github_vault/main/blogs/choose_right_package/assets/platforms.png" alt="platforms" width="70%">
+
 ### Types of packages :
 - Dart  
 	- Dart and Flutter
