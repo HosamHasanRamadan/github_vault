@@ -3,7 +3,7 @@ Pub.dev has over 35K packages this article will help you narrow your choices to 
 Once you add a package to your project, it becomes your responsibility to follow up the package updates and news.
 You need to take in consideration that Flutter doesn't support `mirrors` .
 
-<img src="https://raw.githubusercontent.com/HosamHasanRamadan/github_vault/main/blogs/choose_right_package/assets/platforms.png" alt="platforms" width="70%">
+<img src="https://raw.githubusercontent.com/HosamHasanRamadan/github_vault/main/blogs/choose_right_package/assets/platforms.png" alt="platforms" width="70%">  
 
 ### Types of packages :
 - Dart  
