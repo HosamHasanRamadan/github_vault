@@ -12,15 +12,15 @@ You need to take in consideration that Flutter doesn't support `mirrors`.
 	- Flutter Only 
 
 ### Steps :-
-1- Define you problem 
+1- Define you problem  
 Please define your problem accurately and what you expect from the package to solve 
 
-2- Check Flutter and Dart API before you got to Pub
+2- Check Flutter and Dart API before you got to Pub  
 Carefully check Flutter and Dart API  because sometimes you can find your solution available in the SDK.
 
-3- Take in consideration which platforms you're supporting 
+3- Take in consideration which platforms you're supporting  
 
-4- Packages Metrics :
+4- Packages Metrics :  
  - Pub.dev likes , score and Popularity
  - Github stars , issues and PRs
  - Documentation and testing
