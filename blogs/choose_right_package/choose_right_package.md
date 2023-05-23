@@ -30,7 +30,7 @@ Carefully check Flutter and Dart API  because sometimes you can find your soluti
  - Judge package by its past check update history and change logs
  - check flutter gems
 
-5- Don't plug and play 
+5- Don't plug and play   
 Make POC a test app first to test the package  and check if it solves your problem as expected or not. 
 
-6- Check flutter gems
+6- Check flutter gems  
