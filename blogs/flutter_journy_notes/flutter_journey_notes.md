@@ -45,7 +45,6 @@ Flutter moves really fast and breaks really fast, so you have to be always up-to
 
 ### Static extensions are useless
 
-
 ### Showing dialogs using navigation stack
 Using the navigation stack to show dialog is a crime , thanks god flutter_portal and stack is here.
 
@@ -56,21 +55,23 @@ Material [Mike](https://twitter.com/RydMike) , that's it.
 Just try to remove Firebase from your project , it's not a piece of cake.
 The simplest way is to delete the native file and call `flutter create .` again 
 
-#### Why `mainAxis` and `crossAxis` for `Flex`
+### Why `mainAxis` and `crossAxis` for `Flex`
 Every time I use `Row` or `Column` I feel like my brain glitched , What is wrong with `Vertical` and `Horizintal` 
 
 ### I miss `Checked Exception`
 I really miss checked exception and also catching error in flutter is really weird, it should be forbidden. 
 we have `@alwaysThrows` but is not enough and no one uses it .
 
-#### Elevated and Raised button
+### Elevated and Raised button
 when flutter wanted to change button api they introduced  new buttons with  new names . so then if flutter wants to change the api one more time they will change it back to Raised button . closed loop 😅.
 
-#### `useMaterial3` is a software engineering failure
+### `useMaterial3` is a software engineering failure
 
-#### No direct solution for conditional nesting 
+### No direct solution for conditional nesting 
 - conditional nesting ( nested ,parameters )
 - check [Container](https://github.com/flutter/flutter/blob/d3d8effc68/packages/flutter/lib/src/widgets/container.dart#L240) implementation
 
-#### Expand tap area
+### Expand tap area
 Change hit area without changing widget size . flutter_portal to the rescue.
+
+### Using flutter without native experience is a huge fallacy
