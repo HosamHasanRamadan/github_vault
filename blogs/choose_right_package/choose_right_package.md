@@ -1,7 +1,7 @@
 # Pub.dev How to choose the right package
-Pub.dev has over 35K packages this article will help you narrow your choices to pick the right package to solve your problem
-Once you add a package to your project, it becomes your responsibility to follow up the package updates and news.
-You need to take in consideration that Flutter doesn't support `mirrors` .
+Pub.dev has over 35K packages this article will help you narrow your choices to pick the right package to solve your problem.  
+Once you add a package to your project, it becomes your responsibility to follow up the package updates and news.  
+You need to take in consideration that Flutter doesn't support `mirrors`.  
 
 <img src="https://raw.githubusercontent.com/HosamHasanRamadan/github_vault/main/blogs/choose_right_package/assets/platforms.png" alt="platforms" width="70%">  
 
