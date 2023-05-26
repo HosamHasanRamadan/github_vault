@@ -11,11 +11,9 @@
             "id": "5cf6380ffc1c65c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md",
-                "mode": "source",
-                "source": false
+                "file": "blogs/choose_right_package/assets/banner.svg"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md",
+                "file": "blogs/choose_right_package/assets/banner.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md",
+                "file": "blogs/choose_right_package/assets/banner.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md"
+                "file": "blogs/choose_right_package/assets/banner.svg"
               }
             }
           },
@@ -157,9 +155,12 @@
   },
   "active": "5cf6380ffc1c65c8",
   "lastOpenFiles": [
+    "blogs/choose_right_package/choose_right_package.md",
+    "blogs/choose_right_package/assets/banner.svg",
+    "blogs/choose_right_package/assets/drawing.svg",
+    "blogs/choose_right_package/assets",
     "blogs/flutter_journy_notes/flutter_journey_notes.md",
     "Code samples  for obsidian.md",
-    "blogs/choose_right_package/choose_right_package.md",
     "blogs/choose_right_package/assets/platforms.png",
     "Pasted image 20230523220326.png",
     "blogs/choose_right_package/assets",
