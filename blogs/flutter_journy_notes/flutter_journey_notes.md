@@ -82,4 +82,12 @@ Change hit area without changing widget size . flutter_portal to the rescue.
 -  Event bus -  Simple api like https://pub.dev/packages/notification_dispatcher
 -  Scopes - (getit scopes , ProviderContainer)
 
+### They tried to fix nav 1 with nav 2 which no one uses directly 😁 , I really want navigation to be like PageController
+
 ### Restart app doesn't like global keys
+
+### Analysis server , Restart 🚀
+
+### Riverpod , why I can't implement custom provider
+
+### Riverpod doesn't have `ValueNotifer` provider or `ValueListenable` provider
