@@ -1,23 +1,22 @@
 # Pub.dev How to choose the right package
+ 
+If you're struggling to choose the right package from Pub.dev's vast library of over 35K packages, this article will guide you through the process.
 
-Pub.dev has over 35K packages this article will help you narrow your choices to pick the right package to solve your problem.  
+It's important to remember that once you've added a package to your project, it's your responsibility to keep up with updates and news related to that package. So, choosing the right package is crucial.
 
-Once you add a package to your project, it becomes your responsibility to follow up the package updates and news.  
+Here are the steps to follow:
 
-The package problem is your problem, so you have to pick carefully.  
-
-You need to take in consideration that Flutter doesn't support `mirrors`.  
-
-### Steps :-
-1- Define you problem  
-Please define your problem accurately and what you expect from the package to solve 
-
-2- Check Flutter and Dart API before you got to Pub  
-Carefully check Flutter and Dart API  because sometimes you can find your solution available in the SDK.
-
-3- Take in consideration which platforms you're supporting  
-
-4- Packages Metrics :  
+1. Define Your Problem  
+    Start by defining your problem accurately and specifying your expectations for the package. Be clear about how you want the package to solve your problem.
+    
+2. Check Flutter and Dart API Before You Browse Pub.dev  
+    Before diving into Pub.dev, check the Flutter and Dart API. You may find that the solution you need is already available in the SDK.
+    
+3. Consider the Platforms You're Supporting  
+    Make sure to read the package documentation carefully, as some features may not work on all platforms, even if the package can be compiled on all platforms.
+    
+4. Packages Metrics : 
+ - You need to take in consideration that Flutter doesn't support `mirrors`.  
  - Pub.dev likes , score and Popularity
  - Github stars , issues and PRs
  - Documentation and testing
@@ -26,8 +25,8 @@ Carefully check Flutter and Dart API  because sometimes you can find your soluti
  - Package author engagement 
  - Judge package by its past check update history and change logs
  - check flutter gems
+ 
+5. Test Before Implementation
+Don't simply plug and play. Test the package by creating a proof of concept(POC) or a test app to check if it solves your problem as expected.
 
-5- Don't plug and play   
-Make POC a test app first to test the package  and check if it solves your problem as expected or not. 
-
-6- Check flutter gems  
+Check flutter gems  
