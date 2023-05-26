@@ -17,7 +17,7 @@ Make sure to read the package documentation carefully, as some features may no
     
 ### 4. Packages Metrics :  
 
- - **Documentation and Testing**
+- **Documentation and Testing**
 	Read the package documentation and check its quality and clarity. Look for examples and check the testing coverage and quality of the tests.
 	 
 - **Code Quality**
@@ -33,12 +33,9 @@ Make sure to read the package documentation carefully, as some features may no
 	Check the issues section in GitHub and see how issues are being handled. Also, check the PRs and their acceptance criteria. Look for other community channels on Discord, Telegram, and other platforms to gauge the health of the community.
 	
 - **Popularity** 
-	Consider the package's popularity, as indicated by GitHub stars and Pub.dev metrics like likes, Pub Points, and popularity.
+	Consider the package's popularity, as indicated by GitHub stars and Pub.dev metrics (likes, Pub Points, and Popularity).
 
 ### 5. Test Before Implementation
- it's essential to test it first. Create a proof of concept or a test app to see if the package solves your problem as expected. This will help you avoid potential issues and ensure that the package is the right fit for your project.
-
-**Note** : You need to take in consideration that Flutter doesn't support  `mirrors`. 
-You may take a look at Flutter Gems, it may be helpful .
+ it's essential to test it first. Create a proof of concept or a test app to see if the package solves your problem as expected. This will help you avoid potential issues and ensure that the package is the right fit for your project. 
 
 In conclusion, choosing the right package from Pub.dev's extensive library can be challenging. By following these steps and considering these metrics, you can make the right choice and find a package that meets your needs and helps you achieve your project goals.
