@@ -11,9 +11,10 @@
             "id": "5cf6380ffc1c65c8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "diff-view",
               "state": {
-                "file": "blogs/choose_right_package/assets/banner.svg"
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -83,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/choose_right_package/assets/banner.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/choose_right_package/assets/banner.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "blogs/choose_right_package/assets/banner.svg"
-              }
+              "state": {}
             }
           },
           {
@@ -153,10 +150,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5cf6380ffc1c65c8",
+  "active": "9dba6d85a5545b24",
   "lastOpenFiles": [
-    "blogs/choose_right_package/choose_right_package.md",
+    "blogs/choose_right_package/assets/banner.png",
     "blogs/choose_right_package/assets/banner.svg",
+    "blogs/choose_right_package/choose_right_package.md",
     "blogs/choose_right_package/assets/drawing.svg",
     "blogs/choose_right_package/assets",
     "blogs/flutter_journy_notes/flutter_journey_notes.md",
