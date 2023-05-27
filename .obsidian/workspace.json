@@ -11,11 +11,10 @@
             "id": "5cf6380ffc1c65c8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/appearance.json",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "blogs/choose_right_package/choose_right_package.md"
-              }
+              "state": {}
             }
           },
           {
