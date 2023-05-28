@@ -6,6 +6,9 @@ As a flutter developer, I take so many micro decisions while coding is this blog
 Every time I use native IOS app and Flutter I immediately feel the difference in app feeling, regarding native UI components on IOS feels so much superior to IOS components in flutter.
 I know it is really hard to match each platform user experience, that's the trade off that flutter toke.
 
+
+# `BuildContext` IS YOUR FRIEND, DON'T FIGHT IT  🤗
+
 ### I don't like Textfield UX at all
 Since flutter tries to deliver ui components that needs to fit all platforms ui/ux textfield is one of the hardest challenges that tries to solve. But I still don't like it 😁. and also TextEditingController is not declarative. Butting this aside I don't know yet if two way binding or declarative api in better for textfield , what I am sure about that forms with two way binding is way easier to handle . I don't know  any forms' package that has 100% declarative api. [Reactive Forms](https://pub.dev/packages/reactive_forms) uses two-way binding and it can handle very complex forms. 
 

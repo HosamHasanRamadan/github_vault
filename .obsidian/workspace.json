@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd63f35bc157edb4",
+        "id": "b1713ac58ba74acb",
         "type": "tabs",
         "children": [
           {
-            "id": "dbf6fa6f9ddba1bc",
+            "id": "629fc2b11a046b84",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,13 +155,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "dbf6fa6f9ddba1bc",
+  "active": "629fc2b11a046b84",
   "lastOpenFiles": [
+    "blogs/flutter_journy_notes/flutter_journey_notes.md",
     "Code samples  for obsidian.md",
     "blogs/choose_right_package/choose_right_package.md",
     "blogs/choose_right_package/assets/banner.png",
     "blogs/choose_right_package/assets/banner.svg",
-    "blogs/flutter_journy_notes/flutter_journey_notes.md",
     "blogs/choose_right_package/assets/drawing.svg",
     "blogs/choose_right_package/assets",
     "blogs/choose_right_package/assets/platforms.png",
