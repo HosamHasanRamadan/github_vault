@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ad835a17a184fca7",
+        "id": "fd63f35bc157edb4",
         "type": "tabs",
         "children": [
           {
-            "id": "5cf6380ffc1c65c8",
+            "id": "dbf6fa6f9ddba1bc",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/appearance.json",
-                "staged": false
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md"
+              }
             }
           },
           {
@@ -150,15 +155,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5cf6380ffc1c65c8",
+  "active": "dbf6fa6f9ddba1bc",
   "lastOpenFiles": [
-    "blogs/flutter_journy_notes/flutter_journey_notes.md",
+    "Code samples  for obsidian.md",
     "blogs/choose_right_package/choose_right_package.md",
     "blogs/choose_right_package/assets/banner.png",
     "blogs/choose_right_package/assets/banner.svg",
+    "blogs/flutter_journy_notes/flutter_journey_notes.md",
     "blogs/choose_right_package/assets/drawing.svg",
     "blogs/choose_right_package/assets",
-    "Code samples  for obsidian.md",
     "blogs/choose_right_package/assets/platforms.png",
     "Pasted image 20230523220326.png",
     "blogs/choose_right_package/assets",

@@ -7,7 +7,7 @@ Every time I use native IOS app and Flutter I immediately feel the difference in
 I know it is really hard to match each platform user experience, that's the trade off that flutter toke.
 
 ### I don't like Textfield UX at all
-Since flutter tries to deliver ui components that needs to fit all platforms ui/ux textfield is one of the hardest challenges that tries to solve. But I still don't like it 😁.
+Since flutter tries to deliver ui components that needs to fit all platforms ui/ux textfield is one of the hardest challenges that tries to solve. But I still don't like it 😁. and also TextEditingController is not declarative. Butting this aside I don't know yet if two way binding or declarative api in better for textfield , what I am sure about that forms with two way binding is way easier to handle . I don't know  any forms' package that has 100% declarative api. [Reactive Forms](https://pub.dev/packages/reactive_forms) uses two-way binding and it can handle very complex forms. 
 
 
 ### Text selection doesn't feel natural
@@ -82,7 +82,7 @@ Change hit area without changing widget size . flutter_portal to the rescue.
 -  Event bus -  Simple api like https://pub.dev/packages/notification_dispatcher
 -  Scopes - (getit scopes , ProviderContainer)
 
-### They tried to fix nav 1 with nav 2 which no one uses directly 😁 , I really want navigation to be like PageController
+### They tried to fix nav 1 with nav 2 which no one uses directly 😁
 
 ### Restart app doesn't like global keys
 
