@@ -96,3 +96,6 @@ Change hit area without changing widget size . flutter_portal to the rescue.
 ### Riverpod doesn't have `ValueNotifer` provider or `ValueListenable` provider
 
 ### Why we have two `async` and `collection` libs
+
+### Use generated data models 
+Using freezed , built_value will help you in serialization , copyWith ..etc . And also will avoid mistakes when model scheme changed and forget to apply those changes to copyWith or to/from map.
