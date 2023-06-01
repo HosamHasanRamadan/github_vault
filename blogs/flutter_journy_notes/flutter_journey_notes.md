@@ -99,3 +99,6 @@ Change hit area without changing widget size . flutter_portal to the rescue.
 
 ### Use generated data models 
 Using freezed , built_value will help you in serialization , copyWith ..etc . And also will avoid mistakes when model scheme changed and forget to apply those changes to copyWith or to/from map.
+
+### Observable pattern using push or pull data when notified
+I started to feel that pull data after notification is  is better than pushing it . ChangNotifier vs ValueNotifier , Fight 🤼‍♀️
