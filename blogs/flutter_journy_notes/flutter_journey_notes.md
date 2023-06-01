@@ -102,3 +102,7 @@ Using freezed , built_value will help you in serialization , copyWith ..etc . An
 
 ### Observable pattern using push or pull data when notified
 I started to feel that pull data after notification is  is better than pushing it . ChangNotifier vs ValueNotifier , Fight 🤼‍♀️
+
+### You have to have a unified global place to handle platform permissions
+
+### Global Event Stream is awesome for whom who concerned 
