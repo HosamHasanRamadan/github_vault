@@ -106,3 +106,7 @@ I started to feel that pull data after notification is  is better than pushing i
 ### You have to have a unified global place to handle platform permissions
 
 ### Global Event Stream is awesome for whom who concerned 
+
+
+### I hate `try catch.
+Returning result with value and error is better, but it should in the core of the lang like rust. Exception propagation is a huge question that need to be taken in consideration before starting the app
