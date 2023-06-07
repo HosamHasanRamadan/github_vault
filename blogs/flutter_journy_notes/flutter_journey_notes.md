@@ -130,3 +130,8 @@ void do(){
 	/// rest of function
 }
 ```
+
+### Forked packages names 
+package _x , package_plus , package_2 , package_fixes_x ..... Craaaaap 😠
+
+### Dart disposable and serializable interfaces should be part of Dart SDK
