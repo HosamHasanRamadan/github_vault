@@ -114,7 +114,7 @@ Returning result with value and error is better, but it should in the core of th
 ### You should know when function have to fail 
 function should fail in a situation of doing so many checks where they aren't its responsibility
 example:
-```js
+```dart
 void do(){
 	if(checkA()) return;
 	if(checkB()) return ;
@@ -122,7 +122,7 @@ void do(){
 }
 ```
 it is better to fail and let checks which isn't function responsibility  to others , like:
-```js
+```dart
 void do(){
 	if(checkA()) return;
 	if(checkB()) return ;
