@@ -140,6 +140,6 @@ package _x , package_plus , package_2 , package_fixes_x ..... Craaaaap 😠
 ### Ideas are good implementation is a hell
 Developing and maintaining big apps is a pain  in the a** , specially when you have limitation from the Flutter SDK and other lib you are using inside the app , is freaking hell
 - https://github.com/flutter/flutter/issues/65538
-  I need to clean up some services on app close , which apparently  i can't do
+  I need to clean up some services on app close , which apparently I can't do
 - https://github.com/rrousselGit/riverpod/issues/2645
   The app behaves very weird when screen is locked while running
