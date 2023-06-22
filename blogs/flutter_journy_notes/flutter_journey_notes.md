@@ -145,4 +145,8 @@ Developing and maintaining big apps is a pain  in the a** , specially when you h
   The app behaves very weird when screen is locked while running
 
 
-### I have the nature of lazy loaded providers in Riverpod 😡
+### I hate the nature of lazy loaded providers in Riverpod 😡
+
+### Business logic name consistency
+For example if you want  change football to soccer in your app that's a huge change in terms of backend and frontend . I don't know how to overcome this problem without producing a lot of changes and shitty workarounds.
+Also, it is very crucial between the teams' communication.
