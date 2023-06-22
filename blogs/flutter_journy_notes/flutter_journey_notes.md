@@ -143,3 +143,6 @@ Developing and maintaining big apps is a pain  in the a** , specially when you h
   I need to clean up some services on app close , which apparently I can't do
 - https://github.com/rrousselGit/riverpod/issues/2645
   The app behaves very weird when screen is locked while running
+
+
+### I have the nature of lazy loaded providers in Riverpod 😡
