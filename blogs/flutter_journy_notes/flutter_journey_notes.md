@@ -150,3 +150,5 @@ Developing and maintaining big apps is a pain  in the a** , specially when you h
 ### Business logic name consistency
 For example if you want  change football to soccer in your app that's a huge change in terms of backend and frontend . I don't know how to overcome this problem without producing a lot of changes and shitty workarounds.
 Also, it is very crucial between the teams' communication.
+
+#### Where this piece of  update should live ?! 🤷‍♂️
