@@ -152,3 +152,10 @@ For example if you want  change football to soccer in your app that's a huge cha
 Also, it is very crucial between the teams' communication.
 
 #### Where this piece of  update should live ?! 🤷‍♂️
+
+### Rethink flutter native communication
+When I see SDKs like [Expo](https://docs.expo.dev/versions/latest/?redirected) and [Compose](https://www.jetbrains.com/lp/compose-multiplatform/) multi platform. 
+**Expo**: Has very rich native api with very good support from the Expo team
+**Compose**: has seamless interoperability between Kotlin and native .
+I need to explore more in **Compose** it seems very good competitor to Flutter 
+
