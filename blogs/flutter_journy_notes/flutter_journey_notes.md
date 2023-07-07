@@ -159,3 +159,26 @@ When I see SDKs like [Expo](https://docs.expo.dev/versions/latest/?redirected) a
 **Compose**: has seamless interoperability between Kotlin and native .
 I need to explore more in **Compose** it seems very good competitor to Flutter 
 
+### Cross Platform Solutions:
+- Flutter - Dart
+- Compose Multiplateform - Kotlin
+- Xamarin - C#
+- Avalonia UI - C#
+- Uno - C#
+- React Native -  JS/TS
+- Tauri - JS/TS - Rust
+- Expo - JS/TS
+- Cordove - JS/TS
+- PhoneGap - JS/TS
+- Ionic - JS/TS
+- NativeScript - JS/TS  
+
+How to choose between them:
+- Community support
+- Architecture 
+- Native communication
+- Performance 
+- Language personal pref
+
+### We need easy bridge for native features
+I was trying to use overlay windows in android which is being implanted by community package, and it's not reliable . Most of the time you want to use part of native APIs and I want  to implement it my self, time proved me using community plugin packages is pain in the a** .
