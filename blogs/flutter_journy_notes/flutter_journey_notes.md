@@ -182,3 +182,11 @@ How to choose between them:
 
 ### We need easy bridge for native features
 I was trying to use overlay windows in android which is being implanted by community package, and it's not reliable . Most of the time you want to use part of native APIs and I want  to implement it my self, time proved me using community plugin packages is pain in the a** .
+
+### Flutter webrtc is far from stable and it drives me crazy
+
+### Some times I need easy path to access platform api or lib
+While I am exploring webrtc i need certain functionality from the SDK
+
+### Dart Analyzer is very very bad with  mutli project packages
+for example if you split the code into packages in one project the analyzer fails to work many times and become glitchy
