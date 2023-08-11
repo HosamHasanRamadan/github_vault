@@ -192,7 +192,7 @@ While I am exploring webrtc i need certain functionality from the SDK
 for example if you split the code into packages in one project the analyzer fails to work many times and become glitchy
 
 
-### Method Channel and Event Channel are slow and  headache
-Using platform channels from background thread or or between flutter engines is broken.
+### Method Channel and Event Channel are slow and headache
+using platform channels from background thread or between flutter engines is broken.
 Flutter Firebase should be re-written in pure dart like AWS did with their SDK.
 
