@@ -196,3 +196,6 @@ for example if you split the code into packages in one project the analyzer fail
 using platform channels from background thread or between flutter engines is broken.
 Flutter Firebase should be re-written in pure dart like AWS did with their SDK.
 
+### Chaining in streams is hell
+it is hard to understand and hard to debug.
+
