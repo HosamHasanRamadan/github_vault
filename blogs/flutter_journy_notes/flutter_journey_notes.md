@@ -188,9 +188,8 @@ I was trying to use overlay windows in android which is being implanted by commu
 ### Some times I need easy path to access platform api or lib
 While I am exploring webrtc i need certain functionality from the SDK
 
-### Dart Analyzer is very very bad with  mutli project packages
+### Dart Analyzer is very very bad with  mutli packages project 
 for example if you split the code into packages in one project the analyzer fails to work many times and become glitchy
-
 
 ### Method Channel and Event Channel are slow and headache
 using platform channels from background thread or between flutter engines is broken.
@@ -198,4 +197,15 @@ Flutter Firebase should be re-written in pure dart like AWS did with their SDK.
 
 ### Chaining in streams is hell
 it is hard to understand and hard to debug.
+### Relative layout is required 
+I just want to put `box a` to the right of `box b` and `b` should be centered and `a` should be clickable
 
+![[Pasted image 20231122112712.png]]
+### Future should be chained by default
+```dart
+/// bad
+final a = (await (await b).c)
+
+/// good 
+final a = await b.c
+```
