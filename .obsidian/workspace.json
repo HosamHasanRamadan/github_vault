@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
+                "file": "blogs/flutter_notification_handler/V2 Flutter - Handle notifications like a pro.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
+                "file": "blogs/flutter_notification_handler/V2 Flutter - Handle notifications like a pro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md",
+                "file": "blogs/flutter_notification_handler/V2 Flutter - Handle notifications like a pro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogs/flutter_journy_notes/flutter_journey_notes.md"
+                "file": "blogs/flutter_notification_handler/V2 Flutter - Handle notifications like a pro.md"
               }
             }
           },
@@ -157,12 +157,16 @@
   },
   "active": "6995f369e27ffa3b",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-11-22 11.25.37.excalidraw.md",
     "Code samples  for obsidian.md",
+    "blogs/flutter_notification_handler/V2 Flutter - Handle notifications like a pro.md",
+    "blogs/flutter_notification_handler/Flutter - Handle notifications like a pro.md",
+    "blogs/riverpod_vs_getit/riverpod_vs_getit.md",
+    "blogs/flutter_notification_handler",
+    "blogs/Untitled.md",
     "blogs/flutter_journy_notes/flutter_journey_notes.md",
+    "Excalidraw/Drawing 2023-11-22 11.25.37.excalidraw.md",
     "blogs/flutter_journy_notes/Pasted image 20231122112712.png",
     "Excalidraw",
-    "blogs/riverpod_vs_getit/riverpod_vs_getit.md",
     "blogs/choose_right_package/choose_right_package.md",
     "blogs/choose_right_package/assets/banner.png",
     "blogs/choose_right_package/assets/banner.svg",
