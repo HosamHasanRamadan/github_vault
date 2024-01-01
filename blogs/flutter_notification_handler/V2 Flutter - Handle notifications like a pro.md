@@ -4,7 +4,10 @@ Let's start with those basic requirements and add more as we go.
 
 This blog will a QA form for the challenges I faced to implement this functionality
 
-
+Tools helped me along the way:
+- [Mockoon](https://mockoon.com/) - Use as logging server instead of using `print` in console
+- [Google dev playground](https://developers.google.com/oauthplayground) - for getting auth token to use Google APIS for sending notifications
+- [Hoppscotch](https://hoppscotch.io/) - Http client used for sending notification through Google API
 ### What libraries should use to achieve this functionality ?
 
 ```yml
@@ -27,7 +30,13 @@ Permission.notification.request();
 await Firebase.initializeApp();
 ```
 
-3- implement notification callbacks
+3- Config notification callbacks
+```dart
+FirebaseMessaging.onBackgroundMessage(_onBackgroundMessage);
+FirebaseMessaging.onMessage.listen(_onForegroundMessage);
+```
+
+4- implement notification callbacks
 ```dart
 @pragma('vm:entry-point')
 Future<void> _onBackgroundMessage(RemoteMessage message) async {}
@@ -39,7 +48,7 @@ void _onForegroundMessage(RemoteMessage message) {}
 - `_onForegroundMessage` : triggered when app receives remote notification in foreground
 
 Don't forget `@pragma('vm:entry-point')` for background callback to work properly.
-Now we can get a show notification with actions in all states.
+Now we can show notification with actions in all states.
 
 ***Hint***: Sometimes `FirebaseMessaging` callbacks don't work properly without calling `FirebaseMessaging.instance.getToken()` first.
 
@@ -90,7 +99,7 @@ Now we can get a show notification with actions in all states.
     }
 }```
 
-4- show local notification with actions  on `_onBackgroundMessage` and `_onForegroundMessage` callbacks using  `FlutterLocalNotificationsPlugin.show(...)` method
+4- show local notification with actions on `_onBackgroundMessage` and `_onForegroundMessage` callbacks using  `FlutterLocalNotificationsPlugin.show(...)` method
 
 ### How to redirect user to specific UI if app was opened  from notification tap ?
 
@@ -145,7 +154,8 @@ Future<Map<String, dynamic>?> getIntentArgs() async {
   final argsResult = await _methodChannel.invokeMapMethod('getIntentArgs');
   final args = argsResult?.cast<String, dynamic>();
   return args;
-}```
+}
+```
 
 ### How to close app once user responds to notification if app was opened from notification ?
 
@@ -153,7 +163,7 @@ Using `flutter_exit_app` package to close the app completely whenever we want
 
 ### How to show in app specific UI if app receives notification on foreground or background state ?
 
-there is not problem to react to notification events on foreground state because all listeners are registered in ***main isolate*** . the problem when background event was triggered , we need to find a way of communication between ***main isolate*** and ***other isolates***.
+there is no problem to react to notification events on foreground state because all listeners are registered in ***main isolate*** . the problem when background event was triggered , we need to find a way of communication between ***main isolate*** and ***other isolates***.
 
 Using `IsolateNameServer` API we can achieve simple isolate communication by registering  `UIIsolateCommunicationChannel` in the main thread by calling  `forceRegister` in main function and using `listen` function to listen to data sent through this channel using `send` to the `UIIsolateCommunicationChannel`.
 
