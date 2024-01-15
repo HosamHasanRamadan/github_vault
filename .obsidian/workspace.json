@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "70be13980aa85b03",
+        "id": "19aaeb94c3cd56fd",
         "type": "tabs",
         "children": [
           {
-            "id": "06089891cce5326a",
+            "id": "387098eb130360c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -155,11 +155,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "06089891cce5326a",
+  "active": "387098eb130360c1",
   "lastOpenFiles": [
+    "blogs/flutter_notification_handler/Handling Firebase Notifications in Flutter  Practical Tips.md",
     "Pasted image 20240114152622.png",
     "blogs/flutter_notification_handler/Flutter - Handle notifications like a pro.md",
-    "blogs/flutter_notification_handler/Handling Firebase Notifications in Flutter  Practical Tips.md",
     "Code samples  for obsidian.md",
     "blogs/riverpod_vs_getit/riverpod_vs_getit.md",
     "blogs/flutter_notification_handler",

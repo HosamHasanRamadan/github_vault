@@ -2,11 +2,10 @@
 title: Handling Firebase Notifications in Flutter: Practical Tips
 published: false
 description: 
-series: Flutter AppImage
-tags: flutter, fcm, notifications ,firebase
+tags: flutter, fcm, notifications, firebase
 series: Firebase Notifications in Flutter
 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o2bazpxla52vr1m8alfh.png
-# published_at: 2024-01-01 18:36 +0000
+# published_at: 2024-01-14 17:42 +2000
 ---
 
 I was assigned the task of handling system notifications for medication reminders. The notifications will include two actions: **Take** and **Skip**. The notification should function in all app states, including **foreground**, **background**, and **terminated**. Let's begin with these basic requirements and add more as we progress.
@@ -19,13 +18,7 @@ Tools helped me along the way:
 - [Hoppscotch](https://hoppscotch.io/) - HTTP client used for sending notifications through the Google API.
 
 ### What libraries should use to achieve this functionality ?
-
-```yml
-firebase_messaging: ^14.6.8
-permission_handler: ^10.4.5
-flutter_local_notifications: ^15.1.1
-```
-
+[`firebase_messaging`](https://pub.dev/packages/firebase_messaging), [`flutter_local_notifications`](https://pub.dev/packages/flutter_local_notifications) and [`permission_handler`](https://pub.dev/packages/permission_handler) .
 ### How to listen to remote notification in all app states ?
 
 1- Ensure that notification permission is configured and granted
@@ -62,12 +55,12 @@ Don't forget `@pragma('vm:entry-point')` for the background callback to work pro
 _**Hint**_: Sometimes, `FirebaseMessaging` callbacks don't work properly without calling `FirebaseMessaging.instance.getToken()` first.
 ### How to add actions to remote notifications ?
 
-We can't add actions to notification directly using `firebase_messaging` package only, we need use `flutter_local_notifications` to implement this functionally
+We can't add actions to notification directly using `firebase_messaging` package only, we need to use `flutter_local_notifications` to implement this functionally
 
 1- Initialize and configure `flutter_local_notifications`.
 ```dart
 // call this function in main
-Future<void> initNotificationConfig() async {
+Future<void> configLocalNotification() async {
   await FlutterLocalNotificationsPlugin().initialize(
     const InitializationSettings(
       android: AndroidInitializationSettings('@mipmap/ic_launcher'),
@@ -156,7 +149,7 @@ Future<void> _bringAppToForeground() async {
 
 ```
 
-- To check if app was launched using the android `Intent` we need to check launch `arguments` using `launch_args` package or simply implement native android function and call it using method channel and call it in `main` function
+- To check if app was launched using the android `Intent` we need to check launch `arguments` using [`launch_args`](https://pub.dev/packages/launch_args) or [`receive_intent`](https://pub.dev/packages/) package or simply implement native android function and call it using method channel and call it in `main` function
   
 ```kotlin
 private fun getIntentArgs(): Map<String,Any?>?{
@@ -180,7 +173,7 @@ Future<Map<String, dynamic>?> getIntentArgs() async {
 
 ### How to close app once user responds to notification if app was opened from notification ?
 
-Using the `flutter_exit_app` package to close the app completely whenever we want.
+Using the [`flutter_exit_app`](https://pub.dev/packages/flutter_exit_app) package to close the app completely whenever we want.
 ### How to Display App-Specific UI when Receiving Notifications in Foreground or Background?
 
 While reacting to notification events in the foreground has no challenges since all listeners are registered in the _**main isolate**_, the complexity arises when dealing with background events. To address this, a communication mechanism between the _**main isolate**_ and _**other isolates**_ becomes essential.
@@ -229,9 +222,14 @@ UIIsolateCommunicationChannel.send((data.toList())) // fails in release mode ❌
 UIIsolateCommunicationChannel.send((List.of(data))) //  ✅
 ```
 
+### Not the End
+I hope this small journey has been helpful for you.
+Stay tuned for the IOS implementation  
+
 **Resources:**
-https://firebase.google.com/docs/cloud-messaging/concept-options
-https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#Notification
-https://pub.dev/packages/flutter_local_notifications
-https://api.flutter.dev/flutter/dart-ui/IsolateNameServer-class.html
-https://medium.com/flutter/introducing-background-isolate-channels-7a299609cad8
+- https://firebase.google.com/docs/cloud-messaging/concept-options
+- https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#Notification
+- https://api.flutter.dev/flutter/dart-ui/IsolateNameServer-class.html
+- https://medium.com/flutter/introducing-background-isolate-channels-7a299609cad8
+- https://github.com/firebase/flutterfire/tree/master/packages/firebase_messaging/firebase_messaging/example
+- https://github.com/MaikuB/flutter_local_notifications/tree/master/flutter_local_notifications/example
