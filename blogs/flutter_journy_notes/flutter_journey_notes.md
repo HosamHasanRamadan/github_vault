@@ -209,3 +209,7 @@ final a = (await (await b).c)
 /// good 
 final a = await b.c
 ```
+
+### Immutability with optimistic updates 😍
+
+### Global event bug isn't that bad
