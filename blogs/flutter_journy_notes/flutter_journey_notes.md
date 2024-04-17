@@ -212,4 +212,4 @@ final a = await b.c
 
 ### Immutability with optimistic updates 😍
 
-### Global event bug isn't that bad
+### Global event bus isn't that bad
