@@ -27,9 +27,11 @@ I know flutter is a portable ui framework, but building apps isn't about UI only
  - JNI [Link](https://pub.dev/packages/jni)
  - JS [Link](https://pub.dev/packages/js)
  - Flutter rust bridge [Link](https://pub.dev/packages/flutter_rust_bridge)
- - Tizen interop [Link](https://pub.dev/packages/tizen_interop)
+ - Python  [Link](https://pub.dev/packages/serious_python) [Web](https://pyscript.net/)
+ - Tizen interop [Link](https://pub.dev/packages/tizen_interop) 
  - Pigeon [Link](https://pub.dev/packages/pigeon)
  - Native views [Link](https://docs.flutter.dev/platform-integration/android/platform-views)
+
  
 ### Some packages should be adopted by flutter team
 Package like Provider should be adopted by flutter since Remi will be focused on Riverpod and Provider won't get that much attention from him sooner or later.
